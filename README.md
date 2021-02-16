@@ -16,9 +16,9 @@ Thanks to [jonathanong](https://github.com/jonathanong) for static build of [ffm
     git://github.com/heroku/heroku-buildpack-ruby.git
     git://github.com/hasibulkabir/heroku-buildpack-ffmpeg-ffprobe.git
 
-    $ heroku config:add BUILDPACK_URL=git://github.com/ddollar/heroku-buildpack-multi.git
+    $ heroku buildpacks:add https://github.com/ddollar/heroku-buildpack-multi
 
 By this you can use ffmpeg and ffprobe command.
 
 ### Another method
-    heroku config:add BUILDPACK_URL=git://github.com/HasibulKabir/heroku-buildpack-ffmpeg-ffprobe.git"
+    heroku buildpacks:add https://github.com/HasibulKabir/heroku-buildpack-ffmpeg-ffprobe
